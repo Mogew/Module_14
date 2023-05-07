@@ -13,6 +13,9 @@
 		941EAC4C2A07731900EFC96E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941EAC4A2A07731900EFC96E /* Main.storyboard */; };
 		941EAC4E2A07731C00EFC96E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 941EAC4D2A07731C00EFC96E /* Assets.xcassets */; };
 		941EAC512A07731C00EFC96E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 941EAC4F2A07731C00EFC96E /* LaunchScreen.storyboard */; };
+		941EAC592A0798DA00EFC96E /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941EAC582A0798DA00EFC96E /* CoinManager.swift */; };
+		941EAC5B2A07A4B500EFC96E /* PickerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941EAC5A2A07A4B500EFC96E /* PickerModel.swift */; };
+		941EAC5D2A07A8AF00EFC96E /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 941EAC5C2A07A8AF00EFC96E /* CoinData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		941EAC4D2A07731C00EFC96E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		941EAC502A07731C00EFC96E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		941EAC522A07731C00EFC96E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		941EAC582A0798DA00EFC96E /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		941EAC5A2A07A4B500EFC96E /* PickerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerModel.swift; sourceTree = "<group>"; };
+		941EAC5C2A07A8AF00EFC96E /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			children = (
 				941EAC442A07731900EFC96E /* AppDelegate.swift */,
 				941EAC462A07731900EFC96E /* SceneDelegate.swift */,
+				941EAC5A2A07A4B500EFC96E /* PickerModel.swift */,
+				941EAC582A0798DA00EFC96E /* CoinManager.swift */,
+				941EAC5C2A07A8AF00EFC96E /* CoinData.swift */,
 				941EAC482A07731900EFC96E /* ViewController.swift */,
 				941EAC4A2A07731900EFC96E /* Main.storyboard */,
 				941EAC4D2A07731C00EFC96E /* Assets.xcassets */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				941EAC5D2A07A8AF00EFC96E /* CoinData.swift in Sources */,
 				941EAC492A07731900EFC96E /* ViewController.swift in Sources */,
 				941EAC452A07731900EFC96E /* AppDelegate.swift in Sources */,
 				941EAC472A07731900EFC96E /* SceneDelegate.swift in Sources */,
+				941EAC592A0798DA00EFC96E /* CoinManager.swift in Sources */,
+				941EAC5B2A07A4B500EFC96E /* PickerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +295,7 @@
 		941EAC562A07731C00EFC96E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -311,7 +323,7 @@
 		941EAC572A07731C00EFC96E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon 1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
